@@ -4,14 +4,14 @@
   font-family: 'Roboto', sans-serif;}
 
 .fondoImgHome{
-    background: url(/Proyectos/GeeksChile/img/escritorio2.jpg);
+    background: url(../img/escritorio2.jpg);
     background-repeat: no-repeat;
     background-position:top;
     background-size:cover;
     }
 
 .fondoImgRelax{
-    background: url(/Proyectos/GeeksChile/img/delegar.jpg);
+    background: url(../img/delegar.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
@@ -19,7 +19,7 @@
     }
   
 .fondoLinNegras{
-    background: url(/Proyectos/GeeksChile/img/fondoGridExa.jpg);
+    background: url(../img/fondoGridExa.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
