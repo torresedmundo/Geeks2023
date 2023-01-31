@@ -15,7 +15,7 @@
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
-    height: 45rem;
+    height: 42rem;
     }
   
 .fondoLinNegras{
@@ -29,11 +29,11 @@
   
 
 .tamImgHome {
-    height: 57rem;
+    height: 43rem;
    }
 
 .tamTextHome{
-    font-size: 70px;
+    font-size: 50px;
    }
 
 .fondoLlamAcc1{
@@ -49,7 +49,7 @@
 }
 
 .tamImgProce{
-  width: 20rem;
+  width: 13rem;
 }
 
 .tamImgNum{
@@ -65,7 +65,7 @@
 }
 
 .tamImgAtomo {
-  width: 7rem;
+  width: 5rem;
   align-self: center;  
   justify-content: center;
   border-radius: 1000px;
@@ -90,14 +90,14 @@
 
 .pastilla{
     border:none; /*anchura, estilo y color borde*/
-    padding: 20px; /*espacio alrededor texto*/ /*color botón*/
+    padding: 15px; /*espacio alrededor texto*/ /*color botón*/
     color: black; /*color texto*/
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration:none; /*decoración texto*/
     text-transform:capitalize; /*capitalización texto*/
     font-family:Arial, Helvetica, sans-serif; /*tipografía texto*/
     border-radius: 50px; /*bordes redondos*/
-    height: 5rem;
+    height: 3.5rem;
 }
 
 .colorPastilla1{
@@ -145,7 +145,7 @@
   z-index: 999; }
 
 .tamImgHeader {
-  width: 9rem; }
+  width: 8rem; }
 
 .tamImgServ {
   width: 5rem; }
@@ -154,10 +154,13 @@
   width: 30rem; }
 
 .tamImgCont {
-  width: 4rem; }
+  width: 3rem; }
+
+.tamImgFooter {
+    width: 8rem; }
 
 .tamImgFooter2 {
-  width: 2rem; }
+  width: 1.5rem; }
 
 .textFooterWs{
   text-decoration: none;
@@ -167,8 +170,6 @@
 .tamImgGtest {
   width: 4rem; }
 
-.tamImgFooter {
-  width: 14rem; }
 
 .tamImgContMenu {
   width: 28px; }
