@@ -276,7 +276,7 @@
 .paleta14 {
   color: #ffff00; }
 
-  @media (max-width: 800px) {
+  @media (max-width: 600px) {
     .tamImgHeader {
       width: 6rem; }
 
@@ -313,17 +313,23 @@
     .fondoImgRelax{
             background: url(../img/delegar.jpg);
             background-repeat: no-repeat;
-            background-position:left;
+            background-position:-45px;
             background-size:cover;
-            height: 25rem;
+            height: 33rem;
             
             }
     .tamTextRelax{
-            font-size: 25px;
+            font-size: 26px;
+          
              }
-
-    .paletaTextRelax{
-      color: white;
+    .alinTextRelax1{
+              text-align: right;
+              margin-top: 0px
+            }
+    .alinTextRelax2{
+                text-align: right;
+                margin-top: -10px
+              }
     }
 
     }
