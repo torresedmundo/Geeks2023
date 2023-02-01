@@ -3,6 +3,10 @@
   padding: 0;
   font-family: 'Roboto', sans-serif;}
 
+.ocultar{
+    display: none;
+  }
+
 .fondoImgHome{
     background: url(../img/escritorio2.jpg);
     background-repeat: no-repeat;
@@ -28,6 +32,7 @@
 
 .alinTextHome{
   padding-top: 50px;
+  text-align: end;
 }
 
 .tamImgHome {
@@ -38,9 +43,17 @@
     font-size: 50px;
    }
 
+.paletaTextHome{
+    color: #F277A4;
+  }
+
 .tamTextRelax{
     font-size: 50px;
    }
+
+.paletaTextRelax{
+    color: #3b3b3b;
+  }
 
 .fondoLlamAcc1{
   background-color:rgb(153, 192, 190);
@@ -289,10 +302,14 @@
          }
 
     .alinTextHome{
-            padding-top: 50px;
+          text-align: left;
+            padding-top: 1px;
             text-align: left;
           }
-
+    .paletaTextHome{
+            display: block;
+            
+          }
     .fondoImgRelax{
             background: url(../img/delegar.jpg);
             background-repeat: no-repeat;
@@ -304,10 +321,10 @@
     .tamTextRelax{
             font-size: 25px;
              }
-    .paletaTextHome{
+
+    .paletaTextRelax{
       color: white;
     }
-
 
     }
     
