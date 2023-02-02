@@ -276,6 +276,59 @@
 .paleta14 {
   color: #ffff00; }
 
+  @media (max-width: 1100px) {
+    .tamImgHeader {
+      width: 6rem; }
+
+    .ocultar{
+      display: none;
+    }
+
+    .tamImgHome {
+      height: 33rem;
+     }
+
+    .respPequeñoHome{
+        background: url(../img/escritorio2.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size:cover;
+        } 
+        
+    .tamTextHome{
+          margin-left:25px;
+          padding:0;
+          font-size: 40px;
+         }
+
+    .alinTextHome{
+            padding-top: 25px;
+            text-align: rigth;
+          }
+
+    .fondoImgRelax{
+            background: url(../img/delegar.jpg);
+            background-repeat: no-repeat;
+            background-position:-45px;
+            background-size:cover;
+            height: 33rem;
+            
+            }
+    .tamTextRelax{
+          font-size: 35px;
+             }
+    .alinTextRelax1{
+            margin-top: 10px;
+              text-align: right;
+              margin-right: 60px
+            }
+    .alinTextRelax2{
+                text-align: right;
+                margin-top: -10px;
+                margin-right: 60px;
+              }
+}
+  
   @media (max-width: 600px) {
     .tamImgHeader {
       width: 6rem; }
@@ -330,17 +383,15 @@
                 text-align: right;
                 margin-top: -10px
               }
-    }
-
+    
+    .paletaTextRelax{
+                color: white;
+              }
     }
     
   
-  @media (max-width: 1100px) {
-}
-  
-  @media (max-width: 1199.98px) {
- }
-  
+
+
 
 
 
